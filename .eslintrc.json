@@ -19,18 +19,8 @@
     "prettier",
     "plugin:prettier/recommended"
   ],
-  "plugins": [
-    "@typescript-eslint",
-    "prettier",
-    "react",
-    "react-hooks"
-  ],
-  "ignorePatterns": [
-    ".next/",
-    "node_modules/",
-    "public/",
-    "build/"
-  ],
+  "plugins": ["@typescript-eslint", "prettier", "react", "react-hooks"],
+  "ignorePatterns": [".next/", "node_modules/", "public/", "build/"],
   "rules": {
     "prettier/prettier": [
       "error",
