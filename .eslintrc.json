@@ -6,7 +6,8 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.json",
+    "extraFileExtensions": [".json"]
   },
   "extends": [
     "next/core-web-vitals",
@@ -20,7 +21,7 @@
     "plugin:prettier/recommended"
   ],
   "plugins": ["@typescript-eslint", "prettier", "react", "react-hooks"],
-  "ignorePatterns": [".next/", "node_modules/", "public/", "build/"],
+  "ignorePatterns": [".next/", "node_modules/", "public/", "build/","package-lock.json"],
   "rules": {
     "prettier/prettier": [
       "error",
